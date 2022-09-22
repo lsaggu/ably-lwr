@@ -74,6 +74,7 @@ To start the project in a different mode:
 ## Project Status
 
  - 2022-09-22 - Having trouble with Lightning Design System icons loading, and having trouble including `lightning-input` lightning base component
+ - 2022-09-23 - Successfully restarted and rebuilt app. Launched app on heroku: https://dashboard.heroku.com/apps/enigmatic-ridge-41190. Need to add lightning base components.
 
 ## More Information
 
