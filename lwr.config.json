@@ -1,0 +1,21 @@
+{
+    "layoutsDir": "$rootDir/src/layouts",
+    "lwc": { 
+        "modules": [
+            { "dir": "$rootDir/src/modules" },
+            { "npm": "@salesforce-ux/design-system" },
+            { "npm": "lightning-base-components" }
+        ] 
+    },
+    "routes": [
+        {
+            "id": "main",
+            "path": "/",
+            "rootComponent": "main/app",
+            "layoutTemplate": "$layoutsDir/main.html",
+            "bootstrap": {
+                "syntheticShadow": true
+            }
+        }
+    ]
+}
