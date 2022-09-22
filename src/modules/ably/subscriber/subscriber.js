@@ -1,3 +1,5 @@
 import { LightningElement } from 'lwc';
 
-export default class Subscriber extends LightningElement {}
+export default class Subscriber extends LightningElement {
+    
+}

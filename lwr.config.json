@@ -1,12 +1,6 @@
 {
-    "layoutsDir": "$rootDir/src/layouts",
-    "lwc": { 
-        "modules": [
-            { "dir": "$rootDir/src/modules" },
-            { "npm": "@salesforce-ux/design-system" },
-            { "npm": "lightning-base-components" }
-        ] 
-    },
+    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
+    "bundleConfig": { "exclude": ["lwc", "ably/publisher", "ably/subscriber"] },
     "routes": [
         {
             "id": "main",

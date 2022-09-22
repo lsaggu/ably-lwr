@@ -1,12 +1,12 @@
 {
-  "name": "lwr-ably",
+  "name": "lwr-test-1",
   "version": "0.0.1",
   "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node ./scripts/copy-slds.mjs",
-    "clean": "rm -rf __lwr_cache__",
+    "clean": "rmdir /s __lwr_cache__",
     "dev": "lwr serve",
     "start": "lwr serve --mode prod",
     "start:compat": "lwr serve --mode compat",
@@ -15,7 +15,6 @@
   "dependencies": {
     "@salesforce-ux/design-system": "^2.19.0",
     "cpx": "^1.5.0",
-    "lightning-base-components": "^1.15.4-alpha",
     "lwc": "2.17.0",
     "lwr": "0.7.4"
   },
