@@ -71,6 +71,10 @@ To start the project in a different mode:
 -   compat: `yarn start:compat`
 -   prod-compat: `yarn start:prod-compat`
 
+## Project Status
+
+ - 2022-09-22 - Having trouble with Lightning Design System icons loading, and having trouble including `lightning-input` lightning base component
+
 ## More Information
 
 - *Ably* - [Ably](https://www.ably.com) is a pub/sub platform as a service that easily integrates with a range of tools, allowing developers to build interconnected sytems quickly
